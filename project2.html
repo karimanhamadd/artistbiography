@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Kariman's Music video Explorer webpage</title>
+	<h1> Search for an Artist!</h1>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div class="search-contain">
+
+		<form id="search-form">
+			<input type="text" id="search-input" placeholder="Enter a artist name">
+			<button type="submit">Search</button>
+		</form>
+	</div>
+
+	<div id="artist-info" class="artist-container">
+		<p>Artsist information will pop here after you enter and click on the search button.
+		You can click on the link that will show up to listen to the artists's top tracks!</p>
+	</div>
+	<!-- <div id="top-tracks-container"> -->
+		<!-- <p> click</p> -->
+	<!-- </div> -->
+	<div id="top-track-container" class="artist-container">
+		<p>Top track will appear here after you search for an artist.</p>
+		<audio id="audio-player" controls>
+			<source id="audio-source" type="audio/mp3">
+		</audio>
+	</div>
+
+
+
+
+	<script src="script.js"></script>
+	<button onclick="searchArtist()"> Search</button>
+</body>
+
+
+
+</body>
+
+</html>
+
